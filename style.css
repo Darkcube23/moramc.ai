@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0b0f17;
+    color: white;
+}
+
+.container {
+    width: 420px;
+    margin: 50px auto;
+}
+
+.card {
+    background: #161b26;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #0a0d14;
+    border: 1px solid #2a2f3a;
+    color: white;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #4a6cff;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3a56d6;
+}
+
+#messages {
+    height: 300px;
+    overflow-y: auto;
+    background: black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.chat {
+    display: none;
+}
